@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "ba7d9b03-b8e6-4a48-b341-96462e396db4",
+		"name": "JAVA - GENERIC-V1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ALIVE",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:31303/generic/alive",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "31303",
+					"path": [
+						"generic",
+						"alive"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TEST",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "tokenType",
+							"value": "bearer",
+							"type": "string"
+						},
+						{
+							"key": "accessToken",
+							"value": "7ddc53c4-42b1-4891-9cd6-cd72e8e9ab1b",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "OAUTH2DEMO_CLIENT",
+							"type": "string"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "http://localhost:31303/api/rest/oauth/v1/oauth/token",
+							"type": "string"
+						},
+						{
+							"key": "tokenName",
+							"value": "generic-v1",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "1234567890",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "cbfcc74b-07cd-4abb-906b-abddd8fa1bec",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "client_id",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "password_credentials",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"any1\": \"hello\",\n    \"any2\": \"world\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:31303/generic/skeleton-v1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "31303",
+					"path": [
+						"generic",
+						"skeleton-v1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
