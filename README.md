@@ -89,7 +89,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.212-b10, mixed mode)
 
 * http://localhost:31303/api-docs/
 * http://localhost:31303/api-docs.yaml
-* http://localhost:31303/swagger-ui.html
+* http://localhost:31303/swagger-ui/index.html
 
 ---------------------------------------------------------------------------------------------------
 

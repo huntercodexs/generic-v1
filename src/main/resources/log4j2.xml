@@ -27,7 +27,7 @@
     </Appenders>
 
     <Loggers>     
-        <AsyncLogger name="com.huntercodexs.genericv1" level="debug" additivity="false">
+        <AsyncLogger name="com.huntercodexs.genericprojectdemov1" level="debug" additivity="false">
 			<AppenderRef ref="ConsoleAppender" />                     
             <AppenderRef ref="RollingRandomAccessFile" />
         </AsyncLogger>

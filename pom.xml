@@ -10,11 +10,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.huntercodexs.genericv1</groupId>
-	<artifactId>GENERIC-V1</artifactId>
+	<groupId>com.huntercodexs.genericprojectdemov1</groupId>
+	<artifactId>GENERIC-PROJECT-DEMO-V1</artifactId>
 	<version>22.01.1-SNAPSHOT</version>
-	<name>GENERIC-V1</name>
-	<description>GENERIC-V1</description>
+	<name>GENERIC-PROJECT-DEMO-V1</name>
+	<description>GENERIC-PROJECT-DEMO-V1</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
